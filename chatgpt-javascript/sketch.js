@@ -2,6 +2,10 @@
 let raqueteJogador, raqueteComputador, bola, barraSuperior, barraInferior;
 let fundoImg;
 
+function preload() {
+    fundoImg = loadImage(' ./Image/fundo.jpg');
+  }
+
 function setup() {
     createCanvas(800, 400);
     raqueteJogador = new Raquete(30, height / 2, 10, 60);
@@ -148,6 +152,3 @@ class Barra {
     }
 }
 
-function preload() {
-    fundoImg = loadImage('./fundo.jpg'); 
-}
