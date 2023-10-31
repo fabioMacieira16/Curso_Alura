@@ -11,6 +11,9 @@ export default function App() {
   );
 }
 
+constinuar da aula
+https://cursos.alura.com.br/course/react-native-comecando-zero/task/97005
+
 // const styles = StyleSheet.create({
 //   container: {
 //     flex: 1,
